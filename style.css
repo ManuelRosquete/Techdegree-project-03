@@ -31,7 +31,8 @@ hr {
 }
 
 .section-1 h2 {
-  padding-left: 13px;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 .section-1 label {
@@ -49,8 +50,8 @@ hr {
   border-radius: 5px;
 }
 
-input[type="text"]:focus {
-  border: solid 2px lightskyblue;
+input:focus {
+  background-color:  #29ccc1;
 }
 
 .section-1 select {
@@ -83,7 +84,8 @@ fieldset {
 }
 
 .section-2 h2 {
-    padding-left: 13px;
+  margin-top: 35px;
+  margin-bottom: 5px;
 }
 
 .section-2 h3 {
@@ -119,6 +121,11 @@ button {
   color: white;
 }
 
+.topics label {
+  margin-left: 0;
+  margin-top: 15px;
+}
+
 footer {
   color:#8b9ba3;
   text-align: center;
@@ -130,7 +137,7 @@ footer {
 @media (min-width: 768px) {
 
 header {
-  padding: 5px;
+  padding: 3px;
 }
 
 main h2 {
@@ -153,7 +160,7 @@ main {
 }
 
 hr {
-  max-width: 70%;
+  max-width: 66%;
   margin: auto;
 }
 
@@ -162,46 +169,40 @@ hr {
   margin: auto;
 }
 
+
+
 .info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.info input {
+  flex: 1;
+  align-items: center;
+}
+
+select {
+  flex: 1;
 }
 
 .section-1 label {
   display: inline-block;
-  width: 140px;
   margin-bottom: 25px;
   margin-top: 10px;
   color: #8b9ba3;
+  flex-basis: 150px;
 }
 
-.section-1 input {
-  float: right;
-  width: 70%;
-  height: 20px;
-  padding: 8px;
-  background-color: #e8e8e8;
-  border: none;
-  border-radius: 5px;
-}
 
-.section-1 select {
-  float: right;
-  width: 72%;
-  height: 35px;
-
-  padding: 8px;
-  background-color: #e8e8e8;
-  border: none;
-  border-radius: 5px;
-  font-size: small;
-  color: #8b9ba3;
-}
 
 #zipcode {
-width: 25%;
-margin-right: 222px;
+  width: 20%;
+  margin-left: 84px;
+  }
+
+footer p {
+  padding: 20px;
 }
 
 
