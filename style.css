@@ -57,8 +57,10 @@ hr {
   border-radius: 5px;
 }
 
-input:focus {
-  background-color:  #29ccc1;
+input:focus,
+textarea:focus {
+  background-color:  #bbfaf6;
+  border-bottom: solid #29ccc1 5px;
 }
 
 .section-1 select {
