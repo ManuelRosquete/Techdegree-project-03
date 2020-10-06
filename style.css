@@ -82,6 +82,10 @@ textarea:focus {
 
 }
 
+#zipcode {
+  width: 40%;
+}
+
 fieldset {
   border: none;
 }
