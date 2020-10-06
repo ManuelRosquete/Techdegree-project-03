@@ -7,16 +7,23 @@ header {
 
 header h1 {
   color: white;
+  font-size: x-large;
 }
 
 main {
   text-align: center;
 }
 
+main h2 {
+  margin-bottom: 0;
+}
+
 main p {
   color: #8b9ba3;
   font-size: 15px;
   padding: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -84,7 +91,7 @@ fieldset {
 }
 
 .section-2 h2 {
-  margin-top: 35px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
@@ -169,8 +176,6 @@ hr {
   margin: auto;
 }
 
-
-
 .info {
   display: flex;
   flex-direction: row;
@@ -193,8 +198,6 @@ select {
   color: #8b9ba3;
   flex-basis: 150px;
 }
-
-
 
 #zipcode {
   width: 20%;
